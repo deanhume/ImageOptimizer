@@ -1,0 +1,6 @@
+<configuration>
+  <appSettings>
+    <add key="WebPToolFolder" value ="~/Tools"/>
+    <add key="ImagesFolder" value ="~/Content/themes/base/images"/>
+  </appSettings>
+</configuration>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ImageBeast</id>
+    <version>1.7</version>
+    <authors>Dean Hume</authors>
+    <owners>Dean Hume</owners>
+    <licenseUrl>http://mvchtml5.codeplex.com/</licenseUrl>
+    <projectUrl>http://mvchtml5.codeplex.com/</projectUrl>
+    <iconUrl>http://c512615.r15.cf3.rackcdn.com/html5.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Image Beast is an tool that will dramatically improve the performance of images in your web applications. It will convert and serve the smalles and most lightweight images depending on your server.Support for WebP images and  Data URIs comes built in.</description>
+    <references>
+      <reference file="ImageOptimization.dll" />
+    </references>
+  </metadata>
+</package>
