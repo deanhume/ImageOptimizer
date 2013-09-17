@@ -8,5 +8,10 @@ namespace ImageOptimizationWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult DataUri()
+        {
+            return View();
+        }
     }
 }

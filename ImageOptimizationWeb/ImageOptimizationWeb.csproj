@@ -122,6 +122,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Images\datauri\asos-logo.png" />
+    <Content Include="Images\shard.jpg" />
+    <Content Include="Images\datauri\site-flags.png" />
     <Content Include="Images\test.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -152,6 +155,7 @@
   <ItemGroup>
     <None Include="Properties\PublishProfiles\imageoptimizer - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\imageoptimizer - Web Deploy.pubxml" />
+    <Content Include="Views\Home\DataUri.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
