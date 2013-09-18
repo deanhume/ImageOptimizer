@@ -14,6 +14,19 @@ namespace ImageOptimizationWeb
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "WebP",
+                url: "WebP",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+
+
+            routes.MapRoute(
+                name: "Compressive",
+                url: "Compressive",
+                defaults: new { controller = "Home", action = "Compressive", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

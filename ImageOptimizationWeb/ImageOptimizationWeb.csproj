@@ -122,6 +122,34 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Images\compressive\125w-autumn.jpg" />
+    <Content Include="Images\compressive\125w-dunes.jpg" />
+    <Content Include="Images\compressive\125w-ladybird.jpg" />
+    <Content Include="Images\compressive\125w-model1.jpg" />
+    <Content Include="Images\compressive\125w-model2.jpg" />
+    <Content Include="Images\compressive\125w-model3.jpg" />
+    <Content Include="Images\compressive\125w-rocks.jpg" />
+    <Content Include="Images\compressive\500w-autumn.jpg" />
+    <Content Include="Images\compressive\500w-dunes.jpg" />
+    <Content Include="Images\compressive\500w-ladybird.jpg" />
+    <Content Include="Images\compressive\500w-model1.jpg" />
+    <Content Include="Images\compressive\500w-model2.jpg" />
+    <Content Include="Images\compressive\500w-model3.jpg" />
+    <Content Include="Images\compressive\500w-rocks.jpg" />
+    <Content Include="Images\compressive\autumn\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\autumn\compressed_photoshop.jpg" />
+    <Content Include="Images\compressive\dunes\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\dunes\compressed_photoshop.jpg" />
+    <Content Include="Images\compressive\ladybird\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\ladybird\compressed_photoshop.jpg" />
+    <Content Include="Images\compressive\model1\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\model1\compressed_photoshop.jpg" />
+    <Content Include="Images\compressive\model2\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\model2\compressed_photoshop.jpg" />
+    <Content Include="Images\compressive\model3\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\model3\compressed_photoshop.jpg" />
+    <Content Include="Images\compressive\rocks\compressed_dotnet.jpg" />
+    <Content Include="Images\compressive\rocks\compressed_photoshop.jpg" />
     <Content Include="Images\test.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -152,6 +180,8 @@
   <ItemGroup>
     <None Include="Properties\PublishProfiles\imageoptimizer - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\imageoptimizer - Web Deploy.pubxml" />
+    <Content Include="Views\Home\Compressive.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
