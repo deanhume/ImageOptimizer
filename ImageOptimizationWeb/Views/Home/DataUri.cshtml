@@ -1,0 +1,42 @@
+﻿@using ImageOptimization
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Velocity Conference 2013 - Data URIs</title>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Yanone Kaffeesatz', Arial, serif;
+        }
+
+        h1 {
+            font-family: 'Yanone Kaffeesatz', Arial, serif;
+        }
+    </style>
+</head>
+<body>
+    <div align="center" style="margin-top: 10%;">
+        <h1>Data URI with logo - 6.27KB</h1>
+        @Html.DrawImage("/Images/datauri/asos-logo.png", "Asos logo")
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div align="center">
+        <h1>Data URI with sprite - 6.27KB</h1>
+        @Html.DrawImage("/Images/datauri/site-flags.png", "Asos site flags")
+    </div>
+</body>
+</html>
