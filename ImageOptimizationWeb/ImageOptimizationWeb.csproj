@@ -186,6 +186,10 @@
     <Content Include="Views\Home\Compressive.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\DataUri.cshtml" />
+    <Content Include="Views\Home\WebP.cshtml" />
+    <Content Include="Views\Home\Tools.cshtml" />
+    <Content Include="Views\Home\LazyLoad.cshtml" />
+    <Content Include="Views\Home\Sprites.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

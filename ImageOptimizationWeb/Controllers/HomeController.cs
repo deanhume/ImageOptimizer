@@ -19,5 +19,24 @@ namespace ImageOptimizationWeb.Controllers
             return View();
         }
 
+        public ActionResult WebP()
+        {
+            return View();
+        }
+
+        public ActionResult LazyLoad()
+        {
+            return View();
+        }
+
+        public ActionResult Sprites()
+        {
+            return View();
+        }
+
+        public ActionResult Tools()
+        {
+            return View();
+        }
     }
 }
