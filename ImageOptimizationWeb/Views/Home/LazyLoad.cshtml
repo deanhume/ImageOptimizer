@@ -3,4 +3,43 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>LazyLoad</h2>
+<div class="links" id="links">
+    <h2>Lazy Loading Images</h2>
+    <p class="blurb">A small blurb about lazy loading images.</p>
+    <img data-original="@Url.Content("~/Images/lazyload/1.jpg")" width="125" height="183" />
+    <br />
+    <img data-original="@Url.Content("~/Images/lazyload/2.jpg")" width="125" height="183" />
+    <br />                                                              
+    <img data-original="@Url.Content("~/Images/lazyload/3.jpg")" width="125" height="183" />
+    <br />                                                              
+    <img data-original="@Url.Content("~/Images/lazyload/4.jpg")" width="125" height="183" />
+    <br />                                                             
+    <img data-original="@Url.Content("~/Images/lazyload/5.jpg")" width="125" height="183" />
+    <br />                                     
+    <img data-original="@Url.Content("~/Images/lazyload/6.jpg")" width="125" height="183" />
+    <br />                                         
+    <img data-original="@Url.Content("~/Images/lazyload/7.jpg")" width="125" height="183" />
+    <br />                                         
+    <img data-original="@Url.Content("~/Images/lazyload/8.jpg")" width="125" height="183" />
+    <br />                                          
+    <img data-original="@Url.Content("~/Images/lazyload/9.jpg")" width="125" height="183" />
+    <br />                                         
+    <img data-original="@Url.Content("~/Images/lazyload/10.jpg")" width="125" height="183" />
+    <br />                                          
+    <img data-original="@Url.Content("~/Images/lazyload/11.jpg")" width="125" height="183" />
+    <br />                                          
+    <img data-original="@Url.Content("~/Images/lazyload/12.jpg")" width="125" height="183" />
+    <br />
+</div>
+
+@section Scripts
+{
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="@Url.Content("~/Scripts/jquery.lazyload.min.js")"></script>
+    <script>
+        $("img").lazyload({
+            effect: "fadeIn"
+        });
+
+    </script>
+}
