@@ -121,6 +121,7 @@
     <Content Include="App_Data\cwebp.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Css\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\compressive\125w-autumn.jpg" />
     <Content Include="Images\compressive\125w-dunes.jpg" />
@@ -151,6 +152,18 @@
     <Content Include="Images\compressive\rocks\compressed_dotnet.jpg" />
     <Content Include="Images\compressive\rocks\compressed_photoshop.jpg" />
     <Content Include="Images\datauri\asos-logo.png" />
+    <Content Include="Images\lazyload\1.jpg" />
+    <Content Include="Images\lazyload\10.jpg" />
+    <Content Include="Images\lazyload\11.jpg" />
+    <Content Include="Images\lazyload\12.jpg" />
+    <Content Include="Images\lazyload\2.jpg" />
+    <Content Include="Images\lazyload\3.jpg" />
+    <Content Include="Images\lazyload\4.jpg" />
+    <Content Include="Images\lazyload\5.jpg" />
+    <Content Include="Images\lazyload\6.jpg" />
+    <Content Include="Images\lazyload\7.jpg" />
+    <Content Include="Images\lazyload\8.jpg" />
+    <Content Include="Images\lazyload\9.jpg" />
     <Content Include="Images\shard.jpg" />
     <Content Include="Images\datauri\site-flags.png" />
     <Content Include="Images\test.jpg">
