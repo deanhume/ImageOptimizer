@@ -122,6 +122,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Css\styles.css" />
+    <Content Include="Images\sprites\flag-sprite.png" />
     <Content Include="Global.asax" />
     <Content Include="Images\compressive\125w-autumn.jpg" />
     <Content Include="Images\compressive\125w-dunes.jpg" />

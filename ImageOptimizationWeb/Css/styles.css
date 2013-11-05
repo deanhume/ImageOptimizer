@@ -1,52 +1,63 @@
-﻿       body {
-            font-family: 'Yanone Kaffeesatz', Arial, serif;
-            font-size: 25px;
-        }
+﻿body {
+font-family: 'Yanone Kaffeesatz', Arial, serif;
+font-size: 25px;
+}
 
-        h1 {
-            font-family: 'Lobster', Arial, serif;
-            font-size: 60px;
-            text-rendering: optimizeLegibility;
-        }
+h1 {
+font-family: 'Lobster', Arial, serif;
+font-size: 60px;
+text-rendering: optimizeLegibility;
+}
 
-        .font2 {
-            font-family: 'Lobster', cursive;
-        }
+.font2 {
+font-family: 'Lobster', cursive;
+}
 
-            .font2 h2 {
-                font-size: 20pt;
-            }
+.font2 h2 {
+    font-size: 20pt;
+}
 
-            .font2 img.big {
-                width: 500px;
-            }
+.font2 img.big {
+    width: 500px;
+}
 
-            .font2 img.small {
-                width: 125px;
-            }
+.font2 img.small {
+    width: 125px;
+}
 
-            .font2 li {
-                width: 515px;
-                float: left;
-            }
+.font2 li {
+    width: 515px;
+    float: left;
+}
 
-            .font2 ul {
-                clear: both;
-            }
+.font2 ul {
+    clear: both;
+}
 
-        .links {
-            text-align: center;
-            margin-top: 5%;
-            margin: 0 auto;
-            width: 800px;
-        }
+.links {
+text-align: center;
+margin-top: 5%;
+margin: 0 auto;
+width: 800px;
+}
 
-        #links a {
-            text-decoration: none;
-            color: black;
-        }
+#links a {
+text-decoration: none;
+color: black;
+}
 
-        .blurb {
-            font-size: 30px;
-            text-rendering: optimizeLegibility;
-        }
+.blurb {
+font-size: 30px;
+text-rendering: optimizeLegibility;
+}
+
+.MenuLink {
+color: #26ade4;
+text-decoration: none;
+font-size: 50px;
+}
+.argentinaFlag {
+width: 120px;
+height: 80px;
+background:url('/images/sprites/flag-sprite.png') 0 0;
+}

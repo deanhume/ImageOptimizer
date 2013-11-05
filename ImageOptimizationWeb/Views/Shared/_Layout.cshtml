@@ -7,8 +7,11 @@
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Lobster' rel='stylesheet' type='text/css'>
     <link href='@Url.Content("~/Css/styles.css")' rel='stylesheet' type='text/css' />
 </head>
-<body>
-    @RenderBody()
-    @RenderSection("Scripts",false)
-</body>
+    <body>
+        <div>
+            <a href="/" class="MenuLink"><-- Menu</a>
+        </div>
+        @RenderBody()
+        @RenderSection("Scripts",false)
+    </body>
 </html>
