@@ -51,6 +51,10 @@ font-size: 30px;
 text-rendering: optimizeLegibility;
 }
 
+.links a:hover  {
+border-bottom: 4px #26ade4 solid;
+}
+
 .MenuLink {
 color: #26ade4;
 text-decoration: none;
@@ -60,4 +64,8 @@ font-size: 50px;
 width: 120px;
 height: 80px;
 background:url('/images/sprites/flag-sprite.png') 0 0;
+}
+
+.underline  {
+    border-bottom: 4px #26ade4 solid;
 }

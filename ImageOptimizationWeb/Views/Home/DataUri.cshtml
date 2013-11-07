@@ -1,42 +1,18 @@
 ﻿@using ImageOptimization
 @{
-    Layout = null;
+    Layout = "../Shared/_Layout.cshtml";
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Velocity Conference 2013 - Data URIs</title>
-    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-    <style>
-        body {
-            font-family: 'Yanone Kaffeesatz', Arial, serif;
-        }
-
-        h1 {
-            font-family: 'Yanone Kaffeesatz', Arial, serif;
-        }
-    </style>
-</head>
-<body>
-    <div align="center" style="margin-top: 10%;">
-        <h1>Data URI with logo - 6.27KB</h1>
-        @Html.DrawImage("/Images/datauri/asos-logo.png", "Asos logo")
-    </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div align="center">
-        <h1>Data URI with sprite - 6.27KB</h1>
-        @Html.DrawImage("/Images/datauri/site-flags.png", "Asos site flags")
-    </div>
-</body>
-</html>
+<div class="links" id="links">
+    <h1>Data URIs</h1>
+    <p class="blurb">
+        The images below will either are embedded in the webpage using Data URIs. 
+        If your browser doesnt support <a class="underline" href="http://en.wikipedia.org/wiki/Data_URI_scheme">Data URIs</a>, the images will fall back to their respective PNG files. 
+        For more information about implementing this technique in your applications,
+        take a look at <a class="underline" href="http://robinosborne.co.uk/2011/01/18/data-uri-scheme/">this link</a> and this <a class="underline" href="http://www.deanhume.com/Home/BlogPost/mvc-data-uri-html-helper/61">link.</a>
+    </p>
+    <hr />
+    <h2>Data URI using a logo</h2>
+    @Html.DrawImage("/Images/datauri/asos-logo.png", "Asos logo")
+    <h2>Data URI using a sprite</h2>
+    @Html.DrawImage("/Images/sprites/flag-sprite.png", "Sprite flags")
+</div>

@@ -2,32 +2,35 @@
     ViewBag.Title = "LazyLoad";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="links" id="links">
     <h1>Lazy Loading Images</h1>
-    <p class="blurb">Scroll down to to lazy load more images. As the images come into the user's viewport, an HTTP request is then made to retrieve the images. This technique is effective on pages with larger images and can signifcantly improve your page load times.</p>
+    <p class="blurb">
+        Scroll down to to lazy load more images. As the images come into the user's viewport, an HTTP request is then made to retrieve the images. 
+        This technique is effective on pages with larger images and can signifcantly improve your page load times. 
+        If you would like to learn more about this technique, please visit the following <a class="underline" href="http://www.appelsiini.net/projects/lazyload">link</a>.
+    </p>
     <img data-original="@Url.Content("~/Images/lazyload/1.jpg")" width="125" height="183" />
     <br />
     <img data-original="@Url.Content("~/Images/lazyload/2.jpg")" width="125" height="183" />
-    <br />                                                              
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/3.jpg")" width="125" height="183" />
-    <br />                                                              
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/4.jpg")" width="125" height="183" />
-    <br />                                                             
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/5.jpg")" width="125" height="183" />
-    <br />                                     
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/6.jpg")" width="125" height="183" />
-    <br />                                         
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/7.jpg")" width="125" height="183" />
-    <br />                                         
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/8.jpg")" width="125" height="183" />
-    <br />                                          
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/9.jpg")" width="125" height="183" />
-    <br />                                         
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/10.jpg")" width="125" height="183" />
-    <br />                                          
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/11.jpg")" width="125" height="183" />
-    <br />                                          
+    <br />
     <img data-original="@Url.Content("~/Images/lazyload/12.jpg")" width="125" height="183" />
     <br />
 </div>
