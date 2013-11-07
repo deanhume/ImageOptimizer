@@ -81,3 +81,36 @@ background:url('/images/sprites/flag-sprite.png') 0 0;
 .underline  {
     border-bottom: 4px #26ade4 solid;
 }
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+    background: #26ade4;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 4px 2px gray;	
+    box-shadow: 0px 0px 4px 2px gray;	
+}
+
+.footerTextLeft {
+float: left;
+padding-left: 40px;
+margin-top: 10px;
+}
+
+.footerTextRight {
+float: right;
+margin-top: 10px;
+padding-right: 40px;
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover  {
+border-bottom: 4px white solid;
+}

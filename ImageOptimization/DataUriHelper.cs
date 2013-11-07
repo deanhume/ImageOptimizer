@@ -20,10 +20,12 @@
         /// <param name="alt">
         /// The alt.
         /// </param>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
         /// <returns>
         /// The <see cref="MvcHtmlString"/>.
         /// </returns>
-        public MvcHtmlString BuildDataUriHtmlString(string imageUrl, string alt)
+        public MvcHtmlString BuildDataUriHtmlString(string imageUrl, string alt, string width, string height)
         {
             // Get the file type
             string fileType = Path.GetExtension(imageUrl);
@@ -35,9 +37,7 @@
             // Convert the image
             imageUrl = ConvertImageToBase64String(imageUrl);
 
-            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " +
-                                  "src=\"data:image/{1};base64,{2}\" />", alt,
-                                  fileType, imageUrl));
+            return new MvcHtmlString(String.Format("<img alt=\"{0}\" src=\"data:image/{1};base64,{2}\" width=\"{3}\" height=\"{4}\" />", alt, fileType, imageUrl, width, height));
         }
 
         /// <summary>
