@@ -36,31 +36,10 @@
                     alt = "WebP: " + alt;
                 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 return new MvcHtmlString(String.Format("<img alt=\"{0}\" src=\"{1}\" width=\"{2}\" height=\"{3}\" />", alt, imageUrl, width, height));
             }
 
             return new MvcHtmlString(String.Format("<img alt=\"{0}\" src=\"{1}\" width=\"{2}\" height=\"{3}\" />", alt, imageUrl, width, height));
-=======
-                return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
-            }
-
-            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
->>>>>>> a1d740cda23cfe700b8d84f1c1c2d14990f4d298
-=======
-                return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
-            }
-
-            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
->>>>>>> a1d740cda23cfe700b8d84f1c1c2d14990f4d298
-=======
-                return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
-            }
-
-            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
->>>>>>> a1d740cda23cfe700b8d84f1c1c2d14990f4d298
         }
 
         /// <summary>
