@@ -31,12 +31,13 @@
                 if (fileType != null)
                 {
                     imageUrl = imageUrl.Replace(fileType, ".webp");
+                    alt = "WebP: " + alt;
                 }
 
-                return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" />", alt, imageUrl));
+                return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
             }
 
-            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" />", alt, imageUrl));
+            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
         }
 
         /// <summary>
