@@ -124,13 +124,6 @@
     <Content Include="Css\styles.css" />
     <Content Include="Images\sprites\flag-sprite.png" />
     <Content Include="Global.asax" />
-    <Content Include="Images\compressive\125w-autumn.jpg" />
-    <Content Include="Images\compressive\125w-dunes.jpg" />
-    <Content Include="Images\compressive\125w-ladybird.jpg" />
-    <Content Include="Images\compressive\125w-model1.jpg" />
-    <Content Include="Images\compressive\125w-model2.jpg" />
-    <Content Include="Images\compressive\125w-model3.jpg" />
-    <Content Include="Images\compressive\125w-rocks.jpg" />
     <Content Include="Images\compressive\500w-autumn.jpg" />
     <Content Include="Images\compressive\500w-dunes.jpg" />
     <Content Include="Images\compressive\500w-ladybird.jpg" />
