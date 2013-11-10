@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -8,10 +7,20 @@
     <link href='@Url.Content("~/Css/styles.css")' rel='stylesheet' type='text/css' />
 </head>
     <body>
-        <div>
-            <a href="/" class="MenuLink"><-- Menu</a>
-        </div>
+
         @RenderBody()
+        <br/>
+        <br/>
+        <footer class="footer">
+            <div class="footerTextLeft">
+                @if (!ViewContext.Controller.ValueProvider.GetValue("action").RawValue.ToString().Contains("Index"))
+                {
+                    <a href="/" class="footerLink">Back to Menu</a>
+                }
+            </div>
+            <div class="footerTextRight">Built & maintained by <a href="http://twitter.com/rposbo" class="footerLink">@@rposbo</a> & <a href="http://twitter.com/deanohume" class="footerLink">@@deanohume</a></div>
+		</footer>
         @RenderSection("Scripts",false)
     </body>
 </html>
+

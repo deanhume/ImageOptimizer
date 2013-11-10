@@ -8,8 +8,8 @@
         This is determined using a server side alogrithm based on the browser agent. 
         For more information, please see this <a class="underline" href="http://www.deanhume.com/Home/BlogPost/webp---advanced-image-optimization-using-asp-net-mvc/89">link</a>.</p>
     <hr />
-    <h2>Black/White/Grey Image</h2>
-    @Html.DrawImage("/Images/test.jpg", "This is a test image")
-    <h2>High Colour Image</h2>
-    @Html.DrawImage("/Images/shard.jpg", "Aqua Shard")
+    <p><h2>Black/White/Grey Image</h2>(Original Size: 49KB / WebP Size: 13KB)</p>
+    @Html.DrawImage("/Images/test.jpg", "This is a test image", "320", "416")
+    <p><h2>High Colour Image</h2>(Original Size: 280KB / WebP Size: 51KB)</p>
+    @Html.DrawImage("/Images/shard.jpg", "Aqua Shard", "710", "480")
 </div>

@@ -19,10 +19,12 @@
         /// <param name="alt">
         /// The alt.
         /// </param>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
         /// <returns>
         /// The <see cref="MvcHtmlString"/>.
         /// </returns>
-        public MvcHtmlString BuildWebPHtmlString(string imageUrl, string alt)
+        public MvcHtmlString BuildWebPHtmlString(string imageUrl, string alt, string width, string height)
         {
             if (CanBrowserHandleWebPImages())
             {
@@ -34,10 +36,10 @@
                     alt = "WebP: " + alt;
                 }
 
-                return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
+                return new MvcHtmlString(String.Format("<img alt=\"{0}\" src=\"{1}\" width=\"{2}\" height=\"{3}\" />", alt, imageUrl, width, height));
             }
 
-            return new MvcHtmlString(String.Format("<img alt=\"{0}\" " + "src=\"{1}\" title=\"{0}\" />", alt, imageUrl));
+            return new MvcHtmlString(String.Format("<img alt=\"{0}\" src=\"{1}\" width=\"{2}\" height=\"{3}\" />", alt, imageUrl, width, height));
         }
 
         /// <summary>

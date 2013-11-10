@@ -23,20 +23,22 @@
         /// <param name="alt">
         /// The alt tag.
         /// </param>
+        /// <param name="width">The image width</param>
+        /// <param name="height">The image height</param>
         /// <returns>
         /// The <see cref="MvcHtmlString"/>.
         /// </returns>
-        public static MvcHtmlString DrawImage(this HtmlHelper helper, string imageUrl, string alt)
+        public static MvcHtmlString DrawImage(this HtmlHelper helper, string imageUrl, string alt, string width, string height)
         {
             // Check the size of the image
             if (DataUriHelper.CanBrowserHandleDataUris() && DataUriHelper.IsFileSizeCorrect(imageUrl))
             {
                 // If its the right size, return a data URI
-                return DataUriHelper.BuildDataUriHtmlString(imageUrl, alt);
+                return DataUriHelper.BuildDataUriHtmlString(imageUrl, alt, width, height);
             }
 
             // Else if its the wrong size, return a WebP image
-            return WebPHelper.BuildWebPHtmlString(imageUrl, alt);
+            return WebPHelper.BuildWebPHtmlString(imageUrl, alt, width, height);
         }
     }
 }
