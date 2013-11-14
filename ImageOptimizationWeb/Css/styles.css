@@ -1,16 +1,19 @@
 ﻿body {
 font-family: 'Yanone Kaffeesatz', Arial, serif;
+-webkit-font-smoothing: antialiased;
 font-size: 25px;
 }
 
 h1 {
 font-family: 'Lobster', Arial, serif;
 font-size: 60px;
-text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+
 }
 
 .font2 {
 font-family: 'Lobster', cursive;
+-webkit-font-smoothing: antialiased;
 }
 
 .font2 h2 {
@@ -60,7 +63,6 @@ color: black;
 
 .blurb {
 font-size: 30px;
-text-rendering: optimizeLegibility;
 }
 
 .links a:hover  {
@@ -74,8 +76,16 @@ font-size: 50px;
 }
 .argentinaFlag {
 width: 120px;
-height: 80px;
-background:url('/images/sprites/flag-sprite.png') 0 0;
+height: 75px;
+background:url('/images/sprites/flag-sprite.png');
+background-position: -120px -80px;
+}
+
+.austrianFlag {
+width: 120px;
+height: 75px;
+background:url('/images/sprites/flag-sprite.png');
+background-position: -240px -84px;
 }
 
 .underline  {
@@ -113,4 +123,12 @@ padding-right: 40px;
 
 .footer a:hover  {
 border-bottom: 4px white solid;
+}
+
+#flaglist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+text-align: center;
 }
