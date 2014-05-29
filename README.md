@@ -1,5 +1,7 @@
-# Hello!
+# Image Optimization Techniques
 
-The is the code relating to the demos mentioned in our Getting The LEAST Out Of Your Images talk at VelocityConf London 2013. 
+![Image Optimization Techniques](http://www.imageoptimization.info/Images/image-optimization-logo.png "Image Optimization Techniques | imageoptimization.info")
 
-The demo site is currently available [here](http://imageoptimizer.azurewebsites.net)
+Images play a massive role in modern web development today. They comprise of around 62% of the average page’s total payload, which is an astonishing amount! In terms of web page performance, images are a huge performance roadblock. However, they don't have to be. Simple optimization techniques can make a massive difference and significantly reduce the overall weight of your page.
+
+View the example site at [imageoptimization.info](http://imageoptimization.info)
