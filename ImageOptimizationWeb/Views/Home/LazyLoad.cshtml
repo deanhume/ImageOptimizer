@@ -9,29 +9,29 @@
         This technique is effective on pages with larger images and can signifcantly improve your page load times. 
         If you would like to learn more about this technique, please visit the following <a class="underline" href="http://www.appelsiini.net/projects/lazyload">link</a>.
     </p>
-    <img data-original="@Url.Content("~/Images/lazyload/1.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/1.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/2.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/2.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/3.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/3.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/4.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/4.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/5.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/5.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/6.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/6.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/7.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/7.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/8.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/8.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/9.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/9.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/10.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/10.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/11.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/11.jpg")" width="125" height="183" />
     <br />
-    <img data-original="@Url.Content("~/Images/lazyload/12.jpg")" width="125" height="183" />
+    <img alt="Lazy Loading Images" data-original="@Url.Content("~/Images/lazyload/12.jpg")" width="125" height="183" />
     <br />
 </div>
 
@@ -39,10 +39,5 @@
 {
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="@Url.Content("~/Scripts/jquery.lazyload.min.js")"></script>
-    <script>
-        $("img").lazyload({
-            effect: "fadeIn"
-        });
-
-    </script>
+    <script>$("img").lazyload({effect: "fadeIn"});</script>
 }

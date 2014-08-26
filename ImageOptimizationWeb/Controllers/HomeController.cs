@@ -8,12 +8,18 @@ namespace ImageOptimizationWeb.Controllers
         {
             ViewBag.PageTitle = "Home";
 
+            ViewBag.Description =
+                "Image Optimization - This site contains a collection of best practices for image optimization techniques.";
+
             return View();
         }
 
         public ActionResult Compressive()
         {
             ViewBag.PageTitle = "Compressive";
+
+            ViewBag.Description =
+                "Compressive Images - This site contains a collection of best practices for image optimization techniques.";
 
             return View();
         }
@@ -22,6 +28,9 @@ namespace ImageOptimizationWeb.Controllers
         {
             ViewBag.PageTitle = "Data Uris";
 
+            ViewBag.Description =
+                "Image Optimization - This site contains a collection of best practices for image optimization techniques.";
+
             return View();
         }
 
@@ -29,26 +38,38 @@ namespace ImageOptimizationWeb.Controllers
         {
             ViewBag.PageTitle = "WebP";
 
+            ViewBag.Description =
+                "WebP images - This site contains a collection of best practices for image optimization techniques.";
+
             return View();
         }
 
         public ActionResult LazyLoad()
         {
-            ViewBag.PageTitle = "LazyLoad";
+            ViewBag.PageTitle = "Lazy Loading Images";
+
+            ViewBag.Description =
+                "Lazy Loading Images - This site contains a collection of best practices for image optimization techniques.";
 
             return View();
         }
 
         public ActionResult Sprites()
         {
-            ViewBag.PageTitle = "Sprites";
+            ViewBag.PageTitle = "CSS Sprites";
+
+            ViewBag.Description =
+                "Css Sprites - This site contains a collection of best practices for image optimization techniques.";
 
             return View();
         }
 
         public ActionResult Tools()
         {
-            ViewBag.PageTitle = "Optimisation Tools";
+            ViewBag.PageTitle = "Image Optimization Tools";
+
+            ViewBag.Description =
+                "Image Optimization Tools - This site contains a collection of best practices for image optimization techniques.";
 
             return View();
         }

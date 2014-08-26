@@ -1,12 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Sprites";
+    ViewBag.Title = "CSS Sprites";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="links" id="links">
-    <h1>Sprites</h1>
-    <p class="blurb">Combining many simple images into one, to reduce http requests. Use CSS to display the area you want</p>
-    <div><img src="@Url.Content("~/images/sprites/flag-sprite.png")"/></div>
+    <h1>CSS Sprites</h1>
+    <p class="blurb">Combining many simple images into one, in order to reduce HTTP requests and improve page load times. Use CSS to display only the area that you want.</p>
+    <div><img alt="CSS Sprites" src="@Url.Content("~/images/sprites/flag-sprite.png")"/></div>
 </div>
 <hr/>
 <ul id="flaglist">
