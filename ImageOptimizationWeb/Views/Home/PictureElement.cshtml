@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "LazyLoad";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="links" id="links">
+    <h1>The Picture Element</h1>
+    <p class="blurb">
+        Serving a large image to multiple devices can have a negative impact on page performance. Fortunately, the picture element allows developers to serve different size images to different devices based on their viewport width.
+        For more information on the picture element and how you can implement this in your application, check out the following link. Try and resize the browser on this page and notice the image size adapt accordingly.
+    </p>
+    <hr/>
+    <p></p>
+    <picture class="picture-align">
+        <source media="(min-width: 1024px)" srcset="@Url.Content("~/images/picture/1024/tiger.jpg")">
+        <source media="(min-width: 640px)" srcset="@Url.Content("~/images/picture/640/tiger.jpg")">
+        <source srcset="@Url.Content("~/images/picture/320/tiger.jpg")">
+        <img src="@Url.Content("~/images/picture/640/tiger.jpg")" alt="This picture loads on non-supporting browsers.">
+    </picture>
+</div>
+@section Scripts
+{
+<script src="@Url.Content("~/Scripts/picturefill.min.js")" async></script>
+}
