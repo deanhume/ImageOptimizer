@@ -124,6 +124,12 @@
     <Content Include="Css\styles.css" />
     <Content Include="Css\styles.min.css" />
     <Content Include="Images\image-optimization-logo.png" />
+    <Content Include="Images\picture\1024\tiger.jpg" />
+    <Content Include="Images\picture\1024\tiger.png" />
+    <Content Include="Images\picture\320\tiger.jpg" />
+    <Content Include="Images\picture\320\tiger.png" />
+    <Content Include="Images\picture\640\tiger.jpg" />
+    <Content Include="Images\picture\640\tiger.png" />
     <Content Include="Images\sprites\flag-sprite.png" />
     <Content Include="Global.asax" />
     <Content Include="Images\compressive\500w-autumn.jpg" />
@@ -166,6 +172,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\jquery.lazyload.min.js" />
+    <Content Include="Scripts\picturefill.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -200,6 +207,7 @@
     <Content Include="Views\Home\Tools.cshtml" />
     <Content Include="Views\Home\LazyLoad.cshtml" />
     <Content Include="Views\Home\Sprites.cshtml" />
+    <Content Include="Views\Home\PictureElement.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

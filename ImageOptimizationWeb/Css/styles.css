@@ -132,3 +132,7 @@ list-style-type: none;
 padding-right: 20px;
 text-align: center;
 }
+
+.picture-align {
+    margin-left: -105px;
+}

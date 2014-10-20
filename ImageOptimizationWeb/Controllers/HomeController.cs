@@ -73,5 +73,15 @@ namespace ImageOptimizationWeb.Controllers
 
             return View();
         }
+
+        public ActionResult PictureElement()
+        {
+            ViewBag.PageTitle = "Picture Element HTML5";
+
+            ViewBag.Description =
+                "Picture Element HTML5 - This site contains a collection of best practices for image optimization techniques.";
+
+            return View();
+        }
     }
 }
